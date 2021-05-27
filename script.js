@@ -17,6 +17,7 @@ document.getElementById('start').addEventListener('click',(e)=>{
     document.getElementById('r1').style.display = "none";
     document.getElementById('txt').style.display = "none";
     document.getElementById('start').style.display = "none";
+    document.getElementById('seconds').innerHTML = diff[difficulty];
     wordInput.placeholder = 'Start Typing...';
     wordInput.disabled = false;
     wordInput.focus();
